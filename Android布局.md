@@ -1,7 +1,3 @@
-[TOC]
-
-
-
 ## 相对布局RelativeLayout
 
 ## 线性布局LinearLayout
