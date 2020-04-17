@@ -25,7 +25,7 @@
 
    - BroadcastReceiver：当需要触发一个BroadcastReceiver时，可调用Context的sendBroadcast(Intent intent)、sendStickyBroadcast(Intent intent)或sendOrderedBroadcast(Intent intent,String receiverPermission)方法来发送广播消息，这三个方法中的Intent参数封装了需要触发目标BroadcastReceiver的信息。
 
-     ***注：***Intent封装了当前组件需要启动或触发的目标组件的信息，当一个组件通过Intent表示了启动或触发另一个组件的“意图”之后，这个意图可分为两类：
+     ***注***：Intent封装了当前组件需要启动或触发的目标组件的信息，当一个组件通过Intent表示了启动或触发另一个组件的“意图”之后，这个意图可分为两类：
 
    - 显式Intent：显式Intent明确指定了需要启动或者触发的组件类名。
 
