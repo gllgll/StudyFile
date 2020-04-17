@@ -15,7 +15,7 @@
    - 帮助应用处理终止其进程的情况，以便用户可以返回已恢复其先前状态的 Activity。
    - 提供一种途径，让应用实现彼此之间的用户流，并让系统协调这些用户流。（此处最经典的示例是共享。）
 
-2. **Intent：**Intent并不是Android应用的组件，它是Android应用内不同组件之间通信的载体。当Android运行时需要连接不同的组件时，通常就需要借助于Intent来实现。
+2. **Intent**：Intent并不是Android应用的组件，它是Android应用内不同组件之间通信的载体。当Android运行时需要连接不同的组件时，通常就需要借助于Intent来实现。
 
    　　Intent可以启动应用中的另一个Activity，也可以启动一个Service组件，还可以发送一条广播消息来触发系统中的BroadcastReceiver。也就是说，Activity、Service、BroadcastReceiver三种组件之间的通信都以Intent作为载体，只是不同组件使用Intent的机制略有区别而已。
 
